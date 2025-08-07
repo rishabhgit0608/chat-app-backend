@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/app.ts",
-    "build": "tsc",
+    "build": "node build.js",
     "start": "node dist/app.js",
     "start:dev": "tsx src/app.ts",
     "deploy": "npm run build && npm start"
